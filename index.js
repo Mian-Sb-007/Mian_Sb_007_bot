@@ -1,8 +1,12 @@
+const express = require('express')
+const app = express()
+const PORT = process.env.PORT || 3000
+
+app.get('/', (req, res) => res.send('mian sb bot running ✅'))
+app.listen(PORT, () => console.log(`port ${PORT} open ho gaya`))
 const { default: makeWASocket, useMultiFileAuthState, DisconnectReason, downloadMediaMessage } = require('@whiskeysockets/baileys')
 const pino = require('pino')
 const fs = require('fs')
-const express = require('express')
-const app = express()
 const axios = require('axios')
 const config = require('./config.js')
 
