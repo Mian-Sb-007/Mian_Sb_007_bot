@@ -796,8 +796,8 @@ async function startBot() {
         // 80. OWNER
         if (cmd === 'owner') return reply(`ʙᴏᴛ ᴏᴡɴᴇʀ: ᴡᴀ.ᴍᴇ/${config.owner[0]}\nɴᴀᴍᴇ: ᴍɪᴀɴ ꜱʙ ⁰⁰⁷`)
     })
-
-    // ==== GOOGLE WEBSITE KE LIYE ====  // <-- 
+}
+    
     app.get('/', (req, res) => {
         res.send(`
             <h1>MIAN_Sb_007_Bot</h1>
