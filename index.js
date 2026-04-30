@@ -812,8 +812,4 @@ async function startBot() {
         console.log(`Website running on port ${PORT} - MIAN_Sb_007_Bot`)
     })
 
-} // <-- startBot() ka bracket sabse last me aayega
-
 startBot()
-
-Kiya ya sahi ha ?
