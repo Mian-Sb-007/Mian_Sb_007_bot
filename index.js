@@ -807,7 +807,6 @@ async function startBot() {
         `)
     })
     
-    const PORT = process.env.PORT || 3000
     app.listen(PORT, () => {
         console.log(`Website running on port ${PORT} - MIAN_Sb_007_Bot`)
     })
